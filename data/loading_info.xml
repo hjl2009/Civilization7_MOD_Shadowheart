@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	
+	<LoadingInfo_Leaders>
+		<Row LeaderType="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" LeaderText="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_MOONLIGHT_MAIDEN" LeaderImage="icons/SHADOWHEART_MOONLIGHT_MAIDEN.png" />
+		<Row LeaderType="LEADER_SHADOWHEART_DARK_JUSTICIAR" LeaderText="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_DARK_JUSTICIAR" LeaderImage="icons/SHADOWHEART_DARK_JUSTICIAR.png" />
+	</LoadingInfo_Leaders>
+
+</Database>

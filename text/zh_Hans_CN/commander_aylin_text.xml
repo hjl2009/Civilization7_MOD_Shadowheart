@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+
+        <Replace Tag="LOC_DISCIPLINE_ARMY_SHADOWHEARTS_DAME_AYLIN_NAME" Language="zh_Hans_CN">
+          <Text>艾琳女士</Text>
+        </Replace>
+
+        <Replace Tag="LOC_DISCIPLINE_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_NAME" Language="zh_Hans_CN">
+          <Text>至圣斩</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_NAME" Language="zh_Hans_CN">
+          <Text>至圣斩</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>指挥官攻击额外造成 +999 伤害。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_NAME" Language="zh_Hans_CN">
+          <Text>月光威仪</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士指挥半径内的所有单位获得 +5 战斗力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_NAME" Language="zh_Hans_CN">
+          <Text>光辉审判</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士指挥半径内的所有单位在攻击受伤敌人时获得 +3 战斗力。[n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_NAME" Language="zh_Hans_CN">
+          <Text>夜歌之翼</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士获得 +3 移动力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_NAME" Language="zh_Hans_CN">
+          <Text>不屈之魂</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士防守时获得 +25 战斗力。[n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE_NAME" Language="zh_Hans_CN">
+          <Text>塞伦涅的勇士</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士获得 +100% 经验获取速度。[n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_NAME" Language="zh_Hans_CN">
+          <Text>无尽复仇</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士指挥半径内的单位在对抗区块时获得 +10 战斗力。[n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Replace>
+
+        <!-- GameEffects previews and descriptions -->
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>指挥官的攻击额外造成 +5 伤害。</Text>
+        </Replace>
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_FINAL_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>指挥官的攻击额外造成 +30 伤害。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_PREVIEW" Language="zh_Hans_CN">
+          <Text>+5 战斗力，来自艾琳女士的月光威仪。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_PREVIEW" Language="zh_Hans_CN">
+          <Text>+3 战斗力，来自艾琳女士的光辉审判。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_PREVIEW" Language="zh_Hans_CN">
+          <Text>受指挥的单位获得 +3 移动力。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_PREVIEW" Language="zh_Hans_CN">
+          <Text>+10 战斗力，来自艾琳女士的无尽复仇。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DEFENSE_PREVIEW" Language="zh_Hans_CN">
+          <Text>未处于攻击状态时，该单位获得 +25 防御。</Text>
+        </Replace>
+
+        <Replace Tag="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_NAME" Language="zh_Hans_CN">
+          <Text>艾琳女士</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>艾琳女士，暗夜之歌：独特指挥官，塞伦涅的不朽女儿，一位光辉的勇士，屡次重生以神圣之怒粉碎黑暗。</Text>
+        </Replace>
+  </LocalizedText>
+</Database>

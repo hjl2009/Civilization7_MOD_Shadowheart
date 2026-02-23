@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+	<!-- 领袖局内图标、头像设定 -->	
+	<IconDefinitions>
+		<!-- 月光侍女图标 -->
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_256</Path>
+			<IconSize>256</IconSize>
+		</Row>
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_128</Path>
+			<IconSize>128</IconSize>
+		</Row>
+
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_64</Path>
+			<IconSize>64</IconSize>
+		</Row>
+	
+		
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_256</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>256</IconSize>
+		</Row>
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_128</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>128</IconSize>
+		</Row>
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_64</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>64</IconSize>
+		</Row>
+
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_happy_SHADOWHEART_MOONLIGHT_MAIDEN_128</Path>
+			<Context>LEADER_HAPPY</Context>
+			<IconSize>128</IconSize>
+		</Row>
+		
+		<Row>
+			<ID>LEADER_SHADOWHEART_MOONLIGHT_MAIDEN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_angry_SHADOWHEART_MOONLIGHT_MAIDEN_128</Path>
+			<Context>LEADER_ANGRY</Context>
+			<IconSize>128</IconSize>
+		</Row>
+
+		<!-- 黑暗审判官图标 -->
+
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_256</Path>
+			<IconSize>256</IconSize>
+		</Row>
+		
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_128</Path>
+			<IconSize>128</IconSize>
+		</Row>
+
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_64</Path>
+			<IconSize>64</IconSize>
+		</Row>
+		
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_256</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>256</IconSize>
+		</Row>
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_128</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>128</IconSize>
+		</Row>
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_64</Path>
+			<Context>CIRCLE_MASK</Context>
+			<IconSize>64</IconSize>
+		</Row>
+
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_happy_SHADOWHEART_DARK_JUSTICIAR_128</Path>
+			<Context>LEADER_HAPPY</Context>
+			<IconSize>128</IconSize>
+		</Row>
+		
+		<Row>
+			<ID>LEADER_SHADOWHEART_DARK_JUSTICIAR</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/lp_angry_SHADOWHEART_DARK_JUSTICIAR_128</Path>
+			<Context>LEADER_ANGRY</Context>
+			<IconSize>128</IconSize>
+		</Row>
+
+		<Row>
+			<ID>UNIT_SHADOWHEARTS_DAME_AYLIN</ID>
+			<Path>fs://game/ShadowHeart-ShadowHearts/icons/dame_aylin_icon</Path>
+		</Row>
+		
+
+	</IconDefinitions>
+</Database>

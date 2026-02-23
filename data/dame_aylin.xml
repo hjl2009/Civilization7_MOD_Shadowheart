@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <Types>
+        <Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Kind="KIND_UNIT"/>
+    </Types>
+    <Tags>
+        <Row Tag="UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN" Category="UNIT_CLASS"/>
+    </Tags>
+    <TypeTags>
+        <Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Tag="UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN"/>
+        <Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Tag="UNIT_CLASS_COMMAND"/>
+        <Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
+        <Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Tag="UNIT_CLASS_NO_INDEPENDENTS"/>
+		<Row Type="UNIT_SHADOWHEARTS_DAME_AYLIN" Tag="AGELESS"/>
+    </TypeTags>
+    <Units>
+        <Row UnitType="UNIT_SHADOWHEARTS_DAME_AYLIN" BaseMoves="3" BaseSightRange="3" 
+        Name="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_NAME" CoreClass="CORE_CLASS_SUPPORT" 
+        Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_COMMAND" ManualDelete="false"
+        UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" CanEarnExperience="true" 
+        CanPurchase="false" CanTrain="false" Description="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_DESCRIPTION" 
+        ZoneOfControl="true" PromotionClass="PROMOTION_CLASS_SHADOWHEARTS_DAME_AYLIN_COMMANDER"/>
+    </Units>
+    <Unit_Stats>
+        <Row UnitType="UNIT_SHADOWHEARTS_DAME_AYLIN" Combat="10"/>
+    </Unit_Stats>
+    <Unit_TransitionRetains>
+		<Row UnitType="UNIT_SHADOWHEARTS_DAME_AYLIN"/>
+	</Unit_TransitionRetains>
+
+    <!-- <VisualRemaps>
+        <Row>
+            <ID>REMAP_UNIT_SHADOWHEARTS_DAME_AYLIN</ID>
+            <DisplayName>LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_SHADOWHEARTS_DAME_AYLIN</From>
+            <To>UNIT_ARMY_COMMANDER</To>
+        </Row>
+    </VisualRemaps> -->
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->

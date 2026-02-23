@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- Culture buildings gain 1 adjacency bonus from quarter-->
+    <Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_CULTURE_BUILDING_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ShadowheartMoonlightMaidenCultureBuildingHappiness</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- Science buildings gain 1 adjacency bonus from quarter-->
+    <Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_SCIENCE_BUILDING_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">ShadowheartMoonlightMaidenScienceBuildingHappiness</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- All unit +10 heal-->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_HEALING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
+		<Argument name="Amount">10</Argument>
+		<Argument name="TerritoryTypes">ALL_TERRITORIES</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_HEALING_NAME</Argument>
+	</Modifier>
+	<!-- Units in friendly territory gain +10 heal -->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_HEALING_DOMESTIC" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
+		<Argument name="Amount">10</Argument>
+		<Argument name="TerritoryTypes">FRIENDLY_TERRITORY</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_HEALING_NAME</Argument>
+	</Modifier>
+	<!-- Cities with positive happiness gain 10% science-->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_BUFF_CITY_SCIENCE_POSITIVE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_HAPPINESS">
+				<Argument name="MinSurplusHappiness">1</Argument>
+				<Argument name="Unhappy">false</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Percent">10</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_BUFF_CITY_SCIENCE_CULTURE_POSITIVE_HAPPINESS_NAME</Argument>
+	</Modifier>
+	<!-- Cities with positive happiness gain 10% culture-->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_BUFF_CITY_CULTURE_POSITIVE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_HAPPINESS">
+				<Argument name="MinSurplusHappiness">1</Argument>
+				<Argument name="Unhappy">false</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Percent">10</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_BUFF_CITY_SCIENCE_CULTURE_POSITIVE_HAPPINESS_NAME</Argument>
+	</Modifier>
+	<!-- Gain Dame Aylin at capital when getting first military unit-->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_DAME_AYLIN" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_MILITARY_UNITS">
+				<Argument name="DomainType">DOMAIN_LAND</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_IS_AGE_COUNT">
+				<Argument name="AgeCount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_DAME_AYLIN</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_DAME_AYLIN" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_SHADOWHEARTS_DAME_AYLIN</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<!-- Dame Aylin gains faster respawn and grants heroic assault promotion -->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_DAME_AYLIN_FASTER_RESPAWN" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_RESPAWN_SPEED">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">-80</Argument>
+	</Modifier>
+	<!-- Grant Dame Aylin Heroic Assault -->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_DAME_AYLIN_GRANT_HEROIC_ASSAULT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_SCALING_COMMANDER_ATTACK</Argument>
+	</Modifier>
+	<!-- Agenda: Likes civilizations with highest happiness, dislikes civilizations with spies-->
+	<Modifier id="SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_AGENDA_TIMED_UPDATE">
+		<String context="Name">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA</String>
+		<Argument name="ModName">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_NAME</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_TOOLTIP</Argument>
+		<Argument name="WeightType">DIPLOMACY_AGENDA_COMPARE_YIELD_TYPE</Argument>
+		<Argument name="FirstMeetDelay">20</Argument>
+		<Argument name="UpdateFreq">10</Argument>
+		<Argument name="AwardTo1">DIPLOMACY_AGENDA_AWARD_HIGHEST</Argument>
+		<Argument name="AwardAmtType1">DIPLOMACY_AGENDA_AMT_MEDIUM</Argument>
+		<Argument name="Arg1">YIELD_HAPPINESS</Argument>
+		<Argument name="AwardTo2">DIPLOMACY_AGENDA_AWARD_HIGHEST</Argument>
+		<Argument name="AwardAmtType2">DIPLOMACY_AGENDA_NEG_AMT_MEDIUM</Argument>
+		<Argument name="Arg2">DIPLOMACY_ACTION_GROUP_ESPIONAGE</Argument>
+		<Argument name="NotifyMessage">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_MESSAGE</Argument>
+		<Argument name="NotifySummary">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_SUMMARY</Argument>
+	</Modifier>
+
+</GameEffects>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+      <!-- Shadowheart leaders -->
+       <!-- Shadowheart moonlight maiden -->
+      <Row Tag="LOC_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_NAME">
+        <Text>Shadowheart, Moon Redeemed</Text>
+      </Row>
+      <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_NAME">
+        <Text>Chosen of Selûne</Text>
+      </Row>
+      <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_DESCRIPTION">
+          <Text>[LIST]
+                [BLIST]
+                [LI]All units +10 [icon:Action_Heal]Healing; this value is doubled within friendly territory.[/LI]
+                [LI]When you obtain the first land military unit of the Age, gain the Unique [icon:UNIT_ARMY_COMMANDER]Army Commander Dame Aylin. Dame Aylin persists across Age transitions and has a unique Promotion tree.[/LI]
+                [LI][icon:YIELD_CULTURE]Culture and [icon:YIELD_SCIENCE]Science buildings receive a +1 [icon:YIELD_HAPPINESS]Happiness Adjacency for [icon:CITY_URBAN]quarters.[/LI]
+                [LI]Cities with positive [icon:YIELD_HAPPINESS]Happiness gain +10% [icon:YIELD_CULTURE]Culture and +10% [icon:YIELD_SCIENCE]Science.[/LI]
+             </Text>
+      </Row>
+
+      <Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>Under moonbeam’s grace, let life and hope flourish in our civilization.</Text>
+      </Row>
+      <Row Tag="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_MOONLIGHT_MAIDEN">
+        <Text>Once a cleric of Shar bound by shadows, she refused the command to slay the Nightsong and chose mercy instead. Freed from the dark yoke, she reclaimed her identity under moonlight and became the Chosen of Selûne, guiding others with radiance and hope.</Text>
+      </Row>
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_RUSSIA_TOOLTIP">
+        <Text></Text>
+      </Row> 
+
+    <Row Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA">
+        <Text>Agenda of Shadowheart, Moon Redeemed</Text>
+      </Row>
+
+    <Row Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_TOOLTIP">
+        <Text>Like Leaders with most happiness, dislike those with most espionage actions.</Text>
+      </Row>
+
+      <Row Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_NAME">
+        <Text>Moonlight and Hope</Text>
+      </Row>
+
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>In endless night, the moonlight still guides. May we stand in peace.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>In endless night, the moonlight still guides. May we stand in peace.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>In endless night, the moonlight still guides. May we stand in peace.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>You have chosen conflict… yet the moon’s glow will not diminish.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>When diplomacy falters, let moonlight be our shield in war.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN">
+        <Text>By the grace of moonlight, I will lend you aid.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN">
+        <Text>“I’m afraid I cannot comply. My duty lies elsewhere.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DEFEAT_AI_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY">
+        <Text>The moonlight may fade… but it will rise again…</Text>
+      </Row>
+      <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_CHAPTER_HISTORY_PARA_1">
+        <Text>Once ensnared by darkness, Shadowheart’s path changed when she rejected slaying the Nightsong and embraced mercy and light. Freed from her former servitude, she became a Chosen of Selûne, guiding the lost under moonlight and hope. Selûne, goddess of the moon, stars, wanderers, and seekers, represents compassion, guidance, and enduring light. Her followers hold that even in deepest night, moonlight reveals the way forward. Selûne and her twin sister Shar embody the eternal cosmic struggle between light and darkness.</Text>
+      </Row>
+
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_DESCRIPTION">
+          <Text></Text>
+        </Row> 
+
+        <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_TOOLTIP">
+          <Text></Text>
+        </Row> 
+
+      <!-- Shadowheart Dark Justiciar -->
+      <Row Tag="LOC_LEADER_SHADOWHEART_DARK_JUSTICIAR_NAME">
+        <Text>Shadowheart, Dark Justiciar</Text>
+      </Row>
+      <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_NAME">
+        <Text>Chosen of Shar</Text>
+      </Row>
+      <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_DESCRIPTION">
+          <Text>[LIST]
+                [BLIST]
+                [LI]+100% [icon:YIELD_DIPLOMACY]Influence towards [B][icon:ESPIONAGE]Espionage Actions.[/B][/LI]
+                [LI]Every time you succeed in an [B][icon:ESPIONAGE]Espionage Action[/B], gain one Infantry unit and one [icon:TRADITION]Tradition Slot.[/LI]
+                [LI]For each Infantry unit stationed in a [icon:CITY_URBAN][B]District[/B]: [B]+1 [icon:YIELD_DIPLOMACY]Influence[/B] and [B]+2 [icon:YIELD_CULTURE]Culture[/B] per Age.[/LI]
+                [LI]All Infantry units ignore zones of control.[/LI]
+                [LI]Your opponents cannot use [B]Counter Spy[/B] against you.[/LI]
+             </Text>
+      </Row>
+
+      <Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Let darkness be our power. Legends are born from shadow and loss.</Text>
+      </Row>
+      <Row Tag="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_DARK_JUSTICIAR">
+        <Text>At the crucible of shadow she chose to silence the Nightsong and offered her deed to Shar. In doing so she was fully embraced as Shar’s Chosen — the Dark Justiciar — wielding merciless power to judge the world in shadow.</Text>
+      </Row>
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_PRUSSIA_TOOLTIP">
+        <Text></Text>
+      </Row> 
+
+      <Row Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA">
+        <Text>Agenda of Shadowheart, Dark Justiciar</Text>
+      </Row>
+
+    <Row Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_NAME">
+        <Text>Darkness and Secrecy</Text>
+      </Row>
+          <Row Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_TOOLTIP">
+        <Text>Likes Leaders with most espionage actions. Dislike those with highest happiness.</Text>
+      </Row>
+
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Night extends without mercy… Darkness asks no favours of the weak.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Night extends without mercy… Darkness asks no favours of the weak.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Night extends without mercy… Darkness asks no favours of the weak.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Declare war if you must… your fears fuel my resolve.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>No more words. Let the world kneel in shadow.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>I shall grant aid… but mercy does not follow me.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Your plea is futile. This is not my path.</Text>
+      </Row>
+      <Row Tag="LOC_DIPLO_DEFEAT_AI_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY">
+        <Text>Even in defeat… darkness consumes all…</Text>
+      </Row>
+      <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE_PREVIEW">
+        <Text>Espionage actions completed</Text>
+      </Row>
+      <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHADOWHEART_DARK_JUSTICIAR_CHAPTER_HISTORY_PARA_1">
+        <Text>In the crucible of the Nightsong, Shadowheart chose to extinguish the light and offered her deed to Shar, embracing loss and darkness fully. Thus she was accepted as Shar’s Chosen — the Dark Justiciar — wielding shadow as both judgment and strength. Shar is the goddess of darkness, loss, forgetfulness, night, and hidden secrets. Her followers embrace pain and concealment, viewing darkness as an essential and empowering force. Shar’s cosmic opposition to Selûne reflects the endless cycle of night prevailing against light, only for light to return again.</Text>
+      </Row>
+
+
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_DESCRIPTION">
+        <Text></Text>
+      </Row> 
+
+        <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_TOOLTIP">
+          <Text></Text>
+        </Row> 
+    </EnglishText>
+</Database>

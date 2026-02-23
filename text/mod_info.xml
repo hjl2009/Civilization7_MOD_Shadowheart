@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MODULE_SHADOWHEART_NAME">
+            <Text>Shadowheart of Baldur's Gate 3</Text>
+        </Row>
+        <Row Tag="LOC_MODULE_SHADOWHEART_DESCRIPTION">
+            <Text>Two new leaders based on Shadowheart from Baldur’s Gate 3 — the Moonlight Maiden and the Dark Justiciar — each representing a different path she may choose when confronting the Nightsong.</Text>
+        </Row>
+
+    </EnglishText>
+      <LocalizedText>
+        <Replace Tag="LOC_MODULE_SHADOWHEART_NAME" Language="zh_Hans_CN">
+            <Text>博德之门3 影心</Text>
+        </Replace>
+        <Replace Tag="LOC_MODULE_SHADOWHEART_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>本模组新增两位基于《博德之门3》影心设计的领袖——月光侍女与黑暗审判官——分别对应她在面对暗夜之歌时所做出的不同抉择。</Text>
+        </Replace>
+
+      </LocalizedText>
+</Database>

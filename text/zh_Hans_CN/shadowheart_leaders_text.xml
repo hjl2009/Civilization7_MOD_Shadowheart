@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+  <LocalizedText>
+    
+    <!--简体中文 --> 
+    <!-- Shadowheart Moonlight Maiden localized copies -->
+
+      <Replace Tag="LOC_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_NAME" Language="zh_Hans_CN">
+        <Text>影心（月之救赎者）</Text>
+      </Replace>
+
+      <Replace Tag="LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_NAME" Language="zh_Hans_CN">
+        <Text>塞伦涅神选</Text>
+      </Replace>
+
+      <Replace Tag="LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+        <Text>  [LIST][BLIST][LI]所有单位+10[icon:Action_Heal]治疗，在友方领土内该值翻倍。
+                [LI]获得本时代第一个陆地军事单位时获得特色[icon:UNIT_ARMY_COMMANDER]军队指挥官艾琳女士。艾琳女士能度过时代过渡，拥有特色晋升树。
+                [LI][icon:YIELD_CULTURE]文化和[icon:YIELD_SCIENCE]科技值建筑从相邻[icon:CITY_URBAN]城区获得+1[icon:YIELD_HAPPINESS]幸福相邻加成。
+                [LI][icon:YIELD_HAPPINESS]幸福值为正的城市 +10%[icon:YIELD_CULTURE]文化和[icon:YIELD_SCIENCE]科技值。
+           </Text>
+      </Replace>
+
+      <Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+        <Text>月光洒向大地，让我带领你的文明，守护生命与希望。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_MOONLIGHT_MAIDEN" Language="zh_Hans_CN">
+        <Text>她原本是莎尔的牧师，却在命运之刻拒绝杀死暗夜之歌，选择救赎与希望。放弃黑暗束缚后，她在月光下找回记忆与自我，成为塞伦涅的神选，以光明之力引领他人。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_RUSSIA_TOOLTIP" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>月光照亮每一个迷途之人。愿我们的相遇，在宁静中绽放希望。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>月光照亮每一个迷途之人。愿我们的相遇，在宁静中绽放希望。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>月光照亮每一个迷途之人。愿我们的相遇，在宁静中绽放希望。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>你选择了冲突，但月光不会因此退却。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>若同盟之道已尽，那就以月光为盾，捍卫我们的信念。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Language="zh_Hans_CN">
+      <Text>我会以月光的恩泽助你一臂之力。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Language="zh_Hans_CN">
+      <Text>对不起。我的职责在此，无法依从。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ANY" Language="zh_Hans_CN">
+      <Text>月色虽暗，但它会再次升起……</Text>
+    </Replace>
+
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>影心曾为黑暗的信徒，但在暗夜之歌的试炼面前她拒绝屠杀，选择了救赎与光明。她摆脱了旧日的枷锁，成为塞伦涅的神选，在月光与希望之下引导迷途者。塞伦涅是月亮、星辰、旅人和导航者之神，以慈爱、希望与光明对抗永夜。追随她的信徒相信，即使在最深的黑暗中，月光也会照亮前路。塞伦涅与她的孪生姐姐莎尔在永恒的对立中象征着光与暗的平衡。</Text>
+    </Replace>
+
+        <Replace Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA" Language="zh_Hans_CN">
+        <Text>影心（月之救赎者）议程</Text>
+      </Replace>
+
+    <Replace Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_TOOLTIP" Language="zh_Hans_CN">
+        <Text>喜欢幸福值最高的领袖，不喜欢开展最多谍报行动的领袖。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA_NAME" Language="zh_Hans_CN">
+        <Text>月光与希望</Text>
+      </Replace>
+
+
+       <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_DESCRIPTION" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+
+       <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_TOOLTIP" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+
+    <!-- Shadowheart Dark Justiciar localized copies -->
+      <Replace Tag="LOC_LEADER_SHADOWHEART_DARK_JUSTICIAR_NAME" Language="zh_Hans_CN">
+        <Text>影心（黑暗审判官）</Text>
+      </Replace>
+
+      <Replace Tag="LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_NAME" Language="zh_Hans_CN">
+        <Text>莎尔神选</Text>
+      </Replace>
+
+      <Replace Tag="LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+        <Text>  [LIST][BLIST][LI]进行[B][icon:ESPIONAGE]谍报行动[/B]时+100%[icon:YIELD_DIPLOMACY]影响力效用。
+                [LI][B][icon:ESPIONAGE]谍报行动[/B]成功后获得一个步兵单位和一个[B][icon:NAR_REW_TRADITION_SLOT]社会政策槽位[/B]。
+                [LI][icon:CITY_URBAN][B]区块[/B]中每驻扎一个[B]步兵单位[/B] [B]+1 [icon:YIELD_DIPLOMACY]影响力[/B]、[B]+2 [icon:YIELD_CULTURE]文化[/B]，按时代叠加。
+                [LI]所有步兵单位移动无视控制区。
+                [LI]你的对手无法对你使用[B]反间谍。[/B]
+           </Text>
+      </Replace>
+
+      <Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+        <Text>让黑暗成为力量。史诗由绝望中诞生。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_SHADOWHEART_DARK_JUSTICIAR" Language="zh_Hans_CN">
+        <Text>在暗影考验前她选择斩断光明之声，亲手杀死暗夜之歌，并以此献祭于莎尔。由此她被完全接受为莎尔的神选——黑暗审判官，以无情之力审判世界。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_PRUSSIA_TOOLTIP" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>夜色无垠，黑暗不问弱者。你准备好面对真实了吗？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>夜色无垠，黑暗不问弱者。你准备好面对真实了吗？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>夜色无垠，黑暗不问弱者。你准备好面对真实了吗？</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>宣战吧。你的恐惧将为我所用。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>废话少说，让世界在黑暗中俯首。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_SHADOWHEART_DARK_JUSTICIAR" Language="zh_Hans_CN">
+      <Text>我会冷冷助你一程，但别妄想怜悯。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_SHADOWHEART_DARK_JUSTICIAR" Language="zh_Hans_CN">
+      <Text>你的请求徒劳无益。这不是我的道路。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_DEFEAT_AI_LEADER_SHADOWHEART_DARK_JUSTICIAR_ANY" Language="zh_Hans_CN">
+      <Text>即便倒下，黑暗仍会吞噬一切……</Text>
+    </Replace>
+
+      <Replace Tag="LOC_PROMOTION_ARMY_SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE_PREVIEW" Language="zh_Hans_CN">
+        <Text>间谍行动完成</Text>
+      </Replace>
+
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHADOWHEART_DARK_JUSTICIAR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>在暗夜之歌的试炼中，影心选择了绝对的黑暗，亲手抹灭光明的声音，将痛苦与失落奉献给莎尔。佐此她被莎尔完全接受成为神选——黑暗审判官，以阴影作为审判与力量的象征。莎尔是黑暗、遗忘、失落与夜晚的女神，她的追随者拥抱痛苦与秘密，将黑暗视为真实之力。她与塞伦涅的对立，象征世界中光与暗永恒交替的循环。</Text>
+    </Replace>
+
+        <Replace Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA" Language="zh_Hans_CN">
+        <Text>影心（黑暗审判官）议程</Text>
+      </Replace>
+
+    <Replace Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_TOOLTIP" Language="zh_Hans_CN">
+        <Text>喜欢开展最多谍报行动的领袖，不喜欢幸福值最高的领袖。</Text>
+      </Replace>
+
+      <Replace Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_NAME" Language="zh_Hans_CN">
+        <Text>黑暗与秘密</Text>
+      </Replace>
+
+       <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_DESCRIPTION" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+
+       <Replace Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_TOOLTIP" Language="zh_Hans_CN">
+        <Text></Text>
+      </Replace> 
+  </LocalizedText>
+</Database>

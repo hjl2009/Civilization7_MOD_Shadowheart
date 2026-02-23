@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- Army PromotionDiscipline Dame Aylin -->
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- +5 damage on commander attack -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_COMMANDER_ATTACK_DAMAGE">
+		<Argument name="Amount">5</Argument>
+		<String context="Description">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION</String>
+	</Modifier>
+	<!-- +10 damage on commander attack -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_FINAL" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_COMMANDER_ATTACK_DAMAGE">
+		<Argument name="Amount">999</Argument>
+		<String context="Description">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_FINAL_DESCRIPTION</String>
+	</Modifier>
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- All units in command radius +3 combat strength -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_ATTACH</Argument>
+	</Modifier>
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_PREVIEW</String>
+	</Modifier>
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- All units in command radius +3 combat strength against wounded units -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_ATTACH</Argument>
+	</Modifier>
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DAMAGE_MINIMUM">
+				<Argument name="MinimumAmount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_PREVIEW</String>
+	</Modifier>
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- +3 mobility-->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_MOVEMENT_RATE">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_PREVIEW</String>
+	</Modifier>
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- +10 unit combat strength against district -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_ATTACH</Argument>
+	</Modifier>
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_ATTACH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_IS_DISTRICT"/>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_PREVIEW</String>
+	</Modifier>
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- +25 strength while defending -->
+	<Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DEFENSE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING">
+				<Argument name="Inverse">true</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_CLASS_MATCHES">
+				<Argument name="UnitClass">UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">25</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DEFENSE_PREVIEW</String>
+	</Modifier>
+
+	<!-- ____________________________________________________________________________________________________ -->
+	<!-- Gain 100% experience rate -->
+	 <Modifier id="MOD_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_TERRACOTTA_ARMY</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_SHADOWHEARTS_DAME_AYLIN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">100</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_ABILITY_ARMY_ONSLAUGHT_SHADOWHEARTS_DAME_AYLIN" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_FOCUSED_ATTACK_DAMAGE">
+		<Argument name="Amount">5</Argument>
+		<Argument name="CombatType">COMBAT_MELEE</Argument>
+	</Modifier>
+	<Modifier id="MOD_ABILITY_ARMY_BARRAGE_SHADOWHEARTS_DAME_AYLIN" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_FOCUSED_ATTACK_DAMAGE">
+		<Argument name="Amount">5</Argument>
+		<Argument name="CombatType">COMBAT_RANGED</Argument>
+	</Modifier>
+</GameEffects>

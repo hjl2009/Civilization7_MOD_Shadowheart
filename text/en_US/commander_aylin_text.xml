@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MODULE_BASE_STANDARD_NAME">
+            <Text>ShadowHearts</Text>
+        </Row>
+
+        <!-- Commander Aylin promotions and disciplines -->
+
+        <Row Tag="LOC_DISCIPLINE_ARMY_SHADOWHEARTS_DAME_AYLIN_NAME">
+          <Text>Dame Aylin Discipline</Text>
+        </Row>
+
+        <Row Tag="LOC_DISCIPLINE_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_NAME">
+          <Text>Divine Smite</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_NAME">
+          <Text>Divine Smite</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_SHADOWHEARTS_DAME_AYLIN_DIVINE_SMITE_DESCRIPTION">
+          <Text>+999 damage on commander attack.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_NAME">
+          <Text>Moonlit Presence</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_DESCRIPTION">
+          <Text>Dame Aylin’s presence steadies her forces. All units in command radius +3 combat strength.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_NAME">
+          <Text>Radiant Smite</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_DESCRIPTION">
+          <Text>All units in command radius +5 combat strength against wounded units. [n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_NAME">
+          <Text>Wings of Nightsong</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_DESCRIPTION">
+          <Text>+3 Movement.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_NAME">
+          <Text>Unbroken Spirit</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DESCRIPTION">
+          <Text>+25 strength while defending. [n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE_NAME">
+          <Text>Champion of Selûne</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_CHAMPION_OF_SALUNE_DESCRIPTION">
+          <Text>Dame Aylin gains +100% Experience Rate. [n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_NAME">
+          <Text>Vengeance Unending</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_DESCRIPTION">
+          <Text>Units in command radius gain +10 combat strength against district. [n]{LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION}</Text>
+        </Row>
+
+        <!-- GameEffects previews and descriptions -->
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_DESCRIPTION">
+          <Text>Commander attacks deal an additional +5 damage.</Text>
+        </Row>
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_ATTACK_DAMAGE_FINAL_DESCRIPTION">
+          <Text>Commander attacks deal an additional +30 damage.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_MOONLIT_PRESENCE_PREVIEW">
+          <Text>+5 Combat Strength，from Dame Aylin's Moonlit Presence.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_RADIANT_SMITE_PREVIEW">
+          <Text>+3 Combat Strength，from Dame Aylin's Radiant Smite.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_WINGS_OF_NIGHTSONG_PREVIEW">
+          <Text>+3 Movement，from Dame Aylin's Wings of Nightsong.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_VENGEANCE_UNENDING_PREVIEW">
+          <Text>+10 Combat Strength，from Dame Aylin's Vengeance Unending.</Text>
+        </Row>
+
+        <Row Tag="LOC_PROMOTION_ARMY_SHADOWHEARTS_DAME_AYLIN_UNBROKEN_SPIRIT_DEFENSE_PREVIEW">
+          <Text>When not attacking, this unit gains +25 Defense.</Text>
+        </Row>
+
+        <Row Tag="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_NAME">
+          <Text>Dame Aylin</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_SHADOWHEARTS_DAME_AYLIN_DESCRIPTION">
+          <Text>Dame Aylin, the Nightsong: unique commander, the immortal daughter of Selûne, a radiant champion who rises again and again to shatter the darkness with divine wrath.</Text>
+        </Row>
+        <!--英语 -->  
+    </EnglishText>
+
+</Database>

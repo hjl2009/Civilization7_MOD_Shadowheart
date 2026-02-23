@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- Unlock all Espionage Actions -->
+    <Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_UNLOCK_ALL_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
+		<Argument name="ActionType">DIPLOMACY_ACTION_ESPIONAGE_MILITARY_SABOTAGE, DIPLOMACY_ACTION_ESPIONAGE_STEAL_TECH, DIPLOMACY_ACTION_ESPIONAGE_STEAL_CIVIC, DIPLOMACY_ACTION_ESPIONAGE_MILITARY_INFILTRATION</Argument>
+	</Modifier>
+
+	<!-- +50% Influence towards Espionage Actions -->
+    <Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_INFLUENCE_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+		<Argument name="ActionGroupType">DIPLOMACY_ACTION_GROUP_ESPIONAGE</Argument>
+		<Argument name="Percent">100</Argument>
+	</Modifier>
+
+
+	<!-- For each Espionage action performed, gain +1 combat strength for land units -->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_COMPLETED_ESPIONAGE_ACTION">
+				<Argument name="Repeatable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_PROMOTION_ARMY_SHADOWHEART_DARK_JUSTICIAR_MOD_INCREASE_YIELD_PER_ESPIONAGE_PREVIEW</String>
+	</Modifier>
+
+	<!-- For each Espionage action performed, gain 1 tradition slot -->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_GRANT_TRADITION_SLOT_PER_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_COMPLETED_ESPIONAGE_ACTION">
+				<Argument name="Repeatable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">SHADOWHEART_DARK_JUSTICIAR_MOD_GRANT_TRADITION_SLOT</Argument>
+	</Modifier>
+
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_GRANT_TRADITION_SLOT" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_BOOST_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_DIPLOMACY_ACTION_BASIC_DIPLOMACY_MODS" permanent="true">
+		<!-- If you change any value here, also make the same changes in the _DESCRIBE version.  Also update the _INITIAL description in DiplomacyText.xml -->
+		<Argument name="IsCounterSpy">false</Argument>
+		<Argument name="ApplyToTarget">false</Argument>
+		<Argument name="ActionGroup">DIPLOMACY_ACTION_GROUP_ESPIONAGE</Argument>
+		<Argument name="Modifier1Type">DIPLOMACY_BASIC_MODIFIER_VALUE_REVEAL_PERC</Argument>
+		<Argument name="Modifier1Value">0</Argument>
+		<Argument name="Modifier2Type">DIPLOMACY_BASIC_MODIFIER_VALUE_FAILURE_PERC</Argument>
+		<Argument name="Modifier2Value">0</Argument>
+		<Argument name="Modifier3Type">DIPLOMACY_BASIC_MODIFIER_VALUE_PROGRESS_NUMER</Argument>
+		<Argument name="Modifier3Value">5</Argument>
+	</Modifier>
+
+
+	<!-- After espionage action, gain 1 infantry -->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_GAIN_INFANTRY_PER_ESPIONAGE" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_COMPLETED_ESPIONAGE_ACTION">
+				<Argument name="Repeatable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+	</Modifier>
+	<!-- Every infantry unit stationing in a city gives +1 influence and +2 culture Scale By Game Age-->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_GAIN_INFLUENCE_CULTURE_PER_INFANTRY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_CLASS_MATCHES">
+				<Argument name="UnitClass">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">SHADOWHEART_DARK_JUSTICIAR_MOD_STATIONED_ON_DISTRICT_CULTURE, SHADOWHEART_DARK_JUSTICIAR_MOD_STATIONED_ON_DISTRICT_INFLUENCE</Argument>
+	</Modifier>
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_STATIONED_ON_DISTRICT_CULTURE" collection="COLLECTION_UNIT_OCCUPIED_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT">
+				<Argument name="DistrictType">DISTRICT_URBAN, DISTRICT_CITY_CENTER</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_NAME</Argument>
+	</Modifier>
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_STATIONED_ON_DISTRICT_INFLUENCE" collection="COLLECTION_UNIT_OCCUPIED_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT">
+				<Argument name="DistrictType">DISTRICT_URBAN, DISTRICT_CITY_CENTER</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_NAME</Argument>
+	</Modifier>
+	<!-- Infantry ignore control area-->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_INFANTRY_IGNORE_CONTROL" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_IGNORE_ZOC" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Ignore">true</Argument>
+	</Modifier>
+	<!-- No counter spy actions can be taken against you -->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_NO_ANTI_ESPIONAGE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_NO_OPPOSING_COUNTER_ESPIONAGE"/>
+	<!-- Agenda: Likes civilizations with highest espionage, dislikes civilizations with highest happiness-->
+	<Modifier id="SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_AGENDA_TIMED_UPDATE">
+		<String context="Name">LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA</String>
+		<Argument name="ModName">LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_NAME</Argument>
+		<Argument name="Tooltip">LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA_TOOLTIP</Argument>
+		<Argument name="WeightType">DIPLOMACY_AGENDA_COMPARE_YIELD_TYPE</Argument>
+		<Argument name="FirstMeetDelay">20</Argument>
+		<Argument name="UpdateFreq">10</Argument>
+		<Argument name="AwardTo1">DIPLOMACY_AGENDA_AWARD_HIGHEST</Argument>
+		<Argument name="AwardAmtType1">DIPLOMACY_AGENDA_NEG_AMT_MEDIUM</Argument>
+		<Argument name="Arg1">YIELD_HAPPINESS</Argument>
+		<Argument name="AwardTo2">DIPLOMACY_AGENDA_AWARD_HIGHEST</Argument>
+		<Argument name="AwardAmtType2">DIPLOMACY_AGENDA_AMT_MEDIUM</Argument>
+		<Argument name="Arg2">DIPLOMACY_ACTION_GROUP_ESPIONAGE</Argument>
+		<Argument name="NotifyMessage">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_MESSAGE</Argument>
+		<Argument name="NotifySummary">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_SUMMARY</Argument>
+	</Modifier>
+
+</GameEffects>

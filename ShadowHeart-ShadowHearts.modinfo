@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mod id="ShadowHeart-ShadowHearts" version="1.0" xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_SHADOWHEART_NAME</Name> 
+		<Description>LOC_MODULE_SHADOWHEART_DESCRIPTION</Description>
+		<Package>MOD</Package>
+	</Properties>
+    <Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="age-antiquity" title="LOC_MODULE_AGE_ANTIQUITY_NAME"/>
+		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME"/>
+		<Mod id="age-modern" title="LOC_MODULE_AGE_MODERN_NAME"/>
+    </Dependencies>
+    <References>
+		<Mod id="leader-fallback" title="leader-fallback"/>
+	</References>
+    <ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>	
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria id="leader-fallback">
+			<ModInUse>leader-fallback</ModInUse>
+		</Criteria>
+    </ActionCriteria>
+    <ActionGroups>
+        <ActionGroup id="leader-fallback_SHADOWHEARTS" scope="game" criteria="leader-fallback">
+			<Actions>
+				<UIScripts>
+					<Item>ui/leader-register.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+
+        <ActionGroup id="base-game-main_SHADOWHEARTS" scope="game" criteria="always"> 
+            <!-- 游戏内总是加载 -->
+			<Actions>
+				<!-- 玩家颜色 -->
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+
+				<ImportFiles>
+					<!-- 加载时立绘 -->
+					<Item>icons/SHADOWHEART_DARK_JUSTICIAR.png</Item>	
+                    <Item>icons/SHADOWHEART_MOONLIGHT_MAIDEN.png</Item>	
+					<!-- 局内头像及表情 -->				
+					
+                    <Item>icons/lp_happy_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+                    <Item>icons/lp_angry_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>						
+					<Item>icons/lp_happy_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_angry_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+
+                    <Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_256.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_64.png</Item>
+
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_256.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_64.png</Item>	
+
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_256.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_64.png</Item>
+
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_256.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_64.png</Item>
+
+					<Item>icons/dame_aylin_icon.png</Item>
+					<Item>icons/cPromo_bg_dame_aylin_portrait.png</Item>
+
+				</ImportFiles>
+
+				<UpdateIcons>
+					<!-- 图标加载文件 -->
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+
+				<UpdateDatabase>
+					<!-- 特色指挥官 -->
+					<Item>data/dame_aylin.xml</Item>
+                    <Item>data/commander_aylin_promotion.xml</Item>
+                    <Item>data/commander_aylin_promotion_gameeffects.xml</Item>
+
+					<!-- 领袖核心设定及文本 -->
+					<Item>data/leader_shadowheart_dark_justiciar.xml</Item>
+					<Item>data/leader_shadowheart_dark_justiciar_gameeffects.xml</Item>
+                    <Item>data/leader_shadowheart_moonlight_maiden.xml</Item>
+                    <Item>data/leader_shadowheart_moonlight_maiden_gameeffects.xml</Item>
+					<Item>data/loading_info.xml</Item>
+					<Item>data/leader_shadowheart_moonlight_maiden.sql</Item>
+					<Item>data/unlocks.xml</Item>
+					<Item>data/unit_portraits_support.sql</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_US/commander_aylin_text.xml</Item>
+					<Item>text/en_US/shadowheart_leaders_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/commander_aylin_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/shadowheart_leaders_text.xml</Item>
+				</UpdateText>
+
+			</Actions>
+		</ActionGroup>
+
+        <ActionGroup id="age-antiquity-current_SHADOWHEARTS" scope="game" criteria="antiquity-age-current"> 
+            <!-- 只在古典时代加载的文件 -->
+			<Actions>
+				<UpdateDatabase>	
+					<Item>data/civilizations_antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+
+		<ActionGroup id="shell_SHADOWHEARTS" scope="shell" criteria="always">
+			<Actions>
+
+				<ImportFiles>
+					<!-- 加载时立绘 -->
+					<Item>icons/SHADOWHEART_DARK_JUSTICIAR.png</Item>	
+                    <Item>icons/SHADOWHEART_MOONLIGHT_MAIDEN.png</Item>	
+					<!-- 局内头像及表情 -->				
+					
+                    <Item>icons/lp_happy_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+                    <Item>icons/lp_angry_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>						
+					<Item>icons/lp_happy_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_angry_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+
+                    <Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_256.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_DARK_JUSTICIAR_64.png</Item>
+
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_256.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_circ_SHADOWHEART_MOONLIGHT_MAIDEN_64.png</Item>	
+
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_256.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_128.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_MOONLIGHT_MAIDEN_64.png</Item>
+
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_256.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_128.png</Item>
+					<Item>icons/lp_hex_SHADOWHEART_DARK_JUSTICIAR_64.png</Item>
+
+					<Item>icons/dame_aylin_icon.png</Item>
+					<Item>icons/cPromo_bg_dame_aylin_portrait.png</Item>
+
+				</ImportFiles>
+
+				<UpdateIcons>
+					<!-- 图标加载文件 -->
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+                <UpdateDatabase>
+					<!-- 各种配置文件 -->
+					<Item>config/config.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_US/commander_aylin_text.xml</Item>
+					<Item>text/en_US/shadowheart_leaders_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/commander_aylin_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/shadowheart_leaders_text.xml</Item>
+				</UpdateText>
+
+			</Actions>
+		</ActionGroup>
+
+
+        <ActionGroup id="leader-fallback-shell_SHADOWHEARTS" scope="shell" criteria="leader-fallback">
+			<Actions>
+				<UIScripts>
+					<Item>ui/leader-register.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+    </ActionGroups>
+
+    <LocalizedText>
+		<!-- 模组文本 -->
+		<File>text/mod_info.xml</File> 
+	</LocalizedText>
+</Mod>
