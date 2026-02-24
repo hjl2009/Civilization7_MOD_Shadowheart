@@ -25,7 +25,7 @@
                 <Text>"Oh hells. You didn't pick that by hand did you? They are deadly poisonous"</Text>
             </Row>
             <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_FUNCTIONAL_DESCRIPTION">
-                <Text>+50% [icon:YIELD_HAPPINESS] Happiness towards [icon:CELEBRATION]Celebrations.</Text>
+                <Text>+25% [icon:YIELD_HAPPINESS] Happiness towards [icon:CELEBRATION]Celebrations.</Text>
             </Row>
             <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_ABILITY_NAME">
                 <Text>Night Orchid</Text>
