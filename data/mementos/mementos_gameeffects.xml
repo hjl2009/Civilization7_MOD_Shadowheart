@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- All units +100 combat strength against commander -->
+	<Modifier id="MEMENTO_SHADOWHEART_NIGHT_SPEAR_MODIFIER_1" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+        <Argument name="ModifierId">ATTACH_MEMENTO_SHADOWHEART_NIGHT_SPEAR_MODIFIER_1</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_MEMENTO_SHADOWHEART_NIGHT_SPEAR_MODIFIER_1" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+        <SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">100</Argument>
+		<String context="Preview">LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_COMBAT_PREVIEW</String>
+	</Modifier>
+
+
+	<!-- +50% [icon:YIELD_HAPPINESS] Happiness towards [icon:CELEBRATION]Celebrations -->
+	<Modifier id="MEMENTO_SHADOWHEART_NIGHT_ORCHID_MODIFIER_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Percent">25</Argument>
+		<Argument name="Tooltip">LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_ABILITY_NAME</Argument>
+	</Modifier>
+
+</GameEffects>

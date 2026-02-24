@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_NAME">
+                <Text>Night Spear</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_DESCRIPTION">
+                <Text>If Shar allows it, use this spear to kill Nightsong.</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_FUNCTIONAL_DESCRIPTION">
+                <Text>All land military units will instantly eliminate commander units.</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_COMBAT_PREVIEW">
+                <Text>+100 from Night Spear</Text>
+            </Row>
+
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_UNLOCK_TITLE">
+                <Text>Night Spear Unlocked</Text>   
+            </Row>
+
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_NAME">
+                <Text>Night Orchid</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_DESCRIPTION">
+                <Text>"Oh hells. You didn't pick that by hand did you? They are deadly poisonous"</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_FUNCTIONAL_DESCRIPTION">
+                <Text>+50% [icon:YIELD_HAPPINESS] Happiness towards [icon:CELEBRATION]Celebrations.</Text>
+            </Row>
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_ABILITY_NAME">
+                <Text>Night Orchid</Text>
+            </Row>
+
+            <Row Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_UNLOCK_TITLE">
+                <Text>Night Orchid Unlocked</Text>  
+            </Row>
+        </EnglishText>
+</Database>

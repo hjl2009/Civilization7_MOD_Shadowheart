@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_NAME" Language="zh_Hans_CN">
+      <Text>暗夜之矛</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如果莎尔允许，可以用这把矛杀死暗夜之歌。</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有陆地军事单位对指挥官一击必杀。</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_COMBAT_PREVIEW" Language="zh_Hans_CN">
+      <Text>+100 来自暗夜之矛</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_UNLOCK_TITLE" Language="zh_Hans_CN">
+      <Text>暗夜之矛已解锁</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_NAME" Language="zh_Hans_CN">
+      <Text>夜兰花</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>“该死！你该不会是用手摘的吧？它们可是有剧毒的啊！”</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_FUNCTIONAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>使[icon:YIELD_HAPPINESS]幸福产出提高25%，加速进入[icon:CELEBRATION]庆典。</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_ABILITY_NAME" Language="zh_Hans_CN">
+      <Text>夜兰花</Text>
+    </Replace>
+    <Replace Tag="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_UNLOCK_TITLE" Language="zh_Hans_CN">
+      <Text>夜兰花已解锁</Text>
+    </Replace>
+  </LocalizedText>
+</Database>

@@ -90,6 +90,10 @@
 					<Item>icons/dame_aylin_icon.png</Item>
 					<Item>icons/cPromo_bg_dame_aylin_portrait.png</Item>
 
+					<Item>icons/mementos/memento_night_orchid.png</Item>
+					<Item>icons/mementos/memento_night_spear.png</Item>
+
+
 				</ImportFiles>
 
 				<UpdateIcons>
@@ -112,12 +116,16 @@
 					<Item>data/leader_shadowheart_moonlight_maiden.sql</Item>
 					<Item>data/unlocks.xml</Item>
 					<Item>data/unit_portraits_support.sql</Item>
+					<Item>data/mementos/mementos.xml</Item>
+					<Item>data/mementos/mementos_gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_US/commander_aylin_text.xml</Item>
 					<Item>text/en_US/shadowheart_leaders_text.xml</Item>
+					<Item>text/en_US/mementos_text.xml</Item>
 					<Item locale="zh_Hans_CN">text/zh_Hans_CN/commander_aylin_text.xml</Item>
 					<Item locale="zh_Hans_CN">text/zh_Hans_CN/shadowheart_leaders_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/mementos_text.xml</Item>
 				</UpdateText>
 
 			</Actions>
@@ -165,6 +173,9 @@
 					<Item>icons/dame_aylin_icon.png</Item>
 					<Item>icons/cPromo_bg_dame_aylin_portrait.png</Item>
 
+					<Item>icons/mementos/memento_night_orchid.png</Item>
+					<Item>icons/mementos/memento_night_spear.png</Item>
+
 				</ImportFiles>
 
 				<UpdateIcons>
@@ -174,12 +185,16 @@
                 <UpdateDatabase>
 					<!-- 各种配置文件 -->
 					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>config/unlockableRewards.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_US/commander_aylin_text.xml</Item>
 					<Item>text/en_US/shadowheart_leaders_text.xml</Item>
+					<Item>text/en_US/mementos_text.xml</Item>
 					<Item locale="zh_Hans_CN">text/zh_Hans_CN/commander_aylin_text.xml</Item>
 					<Item locale="zh_Hans_CN">text/zh_Hans_CN/shadowheart_leaders_text.xml</Item>
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN/mementos_text.xml</Item>
 				</UpdateText>
 
 			</Actions>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database xmlns="UnlockableRewards">
+	<!-- 领袖纪念物、开局选项卡、传奇技能点解锁 -->	
+	<Rewards>
+		<Row GameItemID="MEMENTO_SHADOWHEART_NIGHT_SPEAR" DNAItemID="2862a35a70139a41e661ab0f02110a5b" CustomData="ShadowHeart-ShadowHearts/icons/mementos/memento_night_spear.png" Type="UNLOCKABLEREWARD_TYPE_MEMENTO" Name="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_NAME" Description="LOC_MEMENTO_SHADOWHEART_NIGHT_SPEAR_DESCRIPTION" SortIndex="100000"/>
+		<Row GameItemID="MEMENTO_SHADOWHEART_NIGHT_ORCHID" DNAItemID="46ce73804884a31c335becf04cf9a984" CustomData="ShadowHeart-ShadowHearts/icons/mementos/memento_night_orchid.png" Type="UNLOCKABLEREWARD_TYPE_MEMENTO" Name="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_NAME" Description="LOC_MEMENTO_SHADOWHEART_NIGHT_ORCHID_DESCRIPTION" SortIndex="100000"/>
+	</Rewards>
+</Database>
