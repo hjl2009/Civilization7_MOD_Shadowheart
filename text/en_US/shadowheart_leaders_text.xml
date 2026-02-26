@@ -10,10 +10,10 @@
         <Text>Chosen of Selûne</Text>
       </Row>
       <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_MOONLIGHT_MAIDEN_ABILITY_DESCRIPTION">
-          <Text>[LIST][BLIST][LI]All units +10 [icon:Action_Heal]Healing; this value is doubled within friendly territory.[/LI]
-                [LI]When you obtain the first land military unit of the Age, gain the Unique [icon:UNIT_ARMY_COMMANDER]Army Commander Dame Aylin. Dame Aylin persists across Age transitions and has a unique Promotion tree.[/LI]
-                [LI][icon:YIELD_CULTURE]Culture and [icon:YIELD_SCIENCE]Science buildings receive a +1 [icon:YIELD_HAPPINESS]Happiness Adjacency for [icon:CITY_URBAN]quarters.[/LI]
-                [LI]Cities with positive [icon:YIELD_HAPPINESS]Happiness gain +10% [icon:YIELD_CULTURE]Culture and +10% [icon:YIELD_SCIENCE]Science.[/LI]
+          <Text>[LIST][BLIST][LI]All units +10 [icon:Action_Heal]Healing; this value is doubled within friendly territory.
+                [LI]When you obtain the first land military unit of the Age, gain the Unique [icon:UNIT_ARMY_COMMANDER]Army Commander Dame Aylin. Dame Aylin persists across Age transitions and has a unique Promotion tree.
+                [LI][icon:YIELD_CULTURE]Culture and [icon:YIELD_SCIENCE]Science buildings receive a +1 [icon:YIELD_HAPPINESS]Happiness Adjacency for [icon:CITY_URBAN]quarters.
+                [LI]Cities with positive [icon:YIELD_HAPPINESS]Happiness gain +10% [icon:YIELD_CULTURE]Culture and +10% [icon:YIELD_SCIENCE]Science.
              </Text>
       </Row>
 
@@ -26,6 +26,9 @@
       <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_RUSSIA_TOOLTIP">
         <Text></Text>
       </Row> 
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_ABBASID_TOOLTIP">
+        <Text></Text>
+      </Row>
 
     <Row Tag="LOC_SHADOWHEART_MOONLIGHT_MAIDEN_MOD_AGENDA">
         <Text>Agenda of Shadowheart, Moon Redeemed</Text>
@@ -83,11 +86,11 @@
         <Text>Chosen of Shar</Text>
       </Row>
       <Row Tag="LOC_TRAIT_LEADER_SHADOWHEART_DARK_JUSTICIAR_ABILITY_DESCRIPTION">
-          <Text>[LIST][BLIST][LI]+100% [icon:YIELD_DIPLOMACY]Influence towards [B][icon:ESPIONAGE]Espionage Actions.[/B][/LI]
-                [LI]Every time you succeed in an [B][icon:ESPIONAGE]Espionage Action[/B], gain one Infantry unit and one [icon:TRADITION]Tradition Slot.[/LI]
-                [LI]For each Infantry unit stationed in a [icon:CITY_URBAN][B]District[/B]: [B]+1 [icon:YIELD_DIPLOMACY]Influence[/B] and [B]+2 [icon:YIELD_CULTURE]Culture[/B] per Age.[/LI]
-                [LI]All Infantry units ignore zones of control.[/LI]
-                [LI]Your opponents cannot use [B]Counter Spy[/B] against you.[/LI]
+          <Text>[LIST][BLIST][LI]+100% [icon:YIELD_DIPLOMACY]Influence towards [B][icon:ESPIONAGE]Espionage Actions.[/B]
+                [LI]Every time you succeed in an [B][icon:ESPIONAGE]Espionage Action[/B], gain one Infantry unit and one [icon:TRADITION]Tradition Slot.
+                [LI]For each Infantry unit stationed in a [icon:CITY_URBAN][B]District[/B]: [B]+1 [icon:YIELD_DIPLOMACY]Influence[/B] and [B]+2 [icon:YIELD_CULTURE]Culture[/B] per Age.
+                [LI]All Infantry units ignore zones of control.
+                [LI]Your opponents cannot use [B]Counter Spy[/B] against you.
              </Text>
       </Row>
 
@@ -100,6 +103,9 @@
       <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_PRUSSIA_TOOLTIP">
         <Text></Text>
       </Row> 
+      <Row Tag="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_SPAIN_TOOLTIP">
+        <Text></Text>
+      </Row>
 
       <Row Tag="LOC_SHADOWHEART_DARK_JUSTICIAR_MOD_AGENDA">
         <Text>Agenda of Shadowheart, Dark Justiciar</Text>

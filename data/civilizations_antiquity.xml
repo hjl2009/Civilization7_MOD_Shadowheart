@@ -4,6 +4,6 @@
         <Row Leader="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Civilization="CIVILIZATION_EGYPT" Priority="2"/>
         <Row Leader="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Civilization="CIVILIZATION_MAYA" Priority="3"/>
         <Row Leader="LEADER_SHADOWHEART_DARK_JUSTICIAR" Civilization="CIVILIZATION_PERSIA" Priority="2"/>
-        <Row Leader="LEADER_SHADOWHEART_DARK_JUSTICIAR" Civilization="CIVILIZATION_ASSYRIA" Priority="3"/>
+        <Row Leader="LEADER_SHADOWHEART_DARK_JUSTICIAR" Civilization="CIVILIZATION_ROME" Priority="3"/>
     </LeaderCivPriorities>
 </Database>

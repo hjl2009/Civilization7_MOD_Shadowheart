@@ -4,7 +4,7 @@ This mod offers two new leaders inspired by Shadowheart from Baldur’s Gate 3 �
 
 Also provided 2 mementos: [b]Night Spear[/b] and [b]Night Orchid[/b].
 
-Special thanks to [b]MAO[/b] for providing the [b]2D Leader Framework[/b] and [b]Commander Overhaul[/b] mod support — these frameworks made creating custom leader visuals and mechanics far more accessible.  
+Special thanks to [b]MAO[/b] for providing the [b]2D Leader Framework[/b] and [b]Commander Overhaul[/b] and [b]Maple_Leaves[/b] for providing [b]Mod Unit Portraits Fix[/b] mod support — these frameworks made creating custom leader visuals and mechanics far more accessible.  
 
 ---
 

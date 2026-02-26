@@ -6,8 +6,9 @@
 
 本模组支持语言：简体中文、英文。
 
-特别感谢 [b]MAO[/b] 提供的 [b]2D Leader Framework[/b] 以及 [b]Commander Overhaul[/b] 模组的支持 —— 这些框架大大简化了自定义领袖视觉和机制的实现。
+特别感谢 [b]MAO[/b] 提供的 [b]2D Leader Framework[/b] 以及 [b]Commander Overhaul[/b] 以及 [b]枫叶[/b] 提供的 [b]Mod Unit Portraits Fix[/b] 模组的支持 —— 这些框架大大简化了自定义领袖视觉和机制的实现。
 
+discord: https://discord.gg/kgfse3ky6V
 
 
 [h2]影心 · 月之救赎者[/h2]

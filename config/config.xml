@@ -53,13 +53,17 @@
 	<!-- Define Leader Unlocks -->	
 	<LeaderUnlocks>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_RUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_RUSSIA_NAME" Description="LOC_CIVILIZATION_RUSSIA_DESCRIPTION" Icon="CIVILIZATION_RUSSIA"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ABBASID" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ABBASID_NAME" Description="LOC_CIVILIZATION_ABBASID_DESCRIPTION" Icon="CIVILIZATION_ABBASID"/>
         <Row LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_DARK_JUSTICIAR" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="CIVILIZATION_PRUSSIA"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_DARK_JUSTICIAR" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_SPAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SPAIN_NAME" Description="LOC_CIVILIZATION_SPAIN_DESCRIPTION" Icon="CIVILIZATION_SPAIN"/>
     </LeaderUnlocks>
 	
 	<!-- Define Leader Civilization Bias -->	
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_RUSSIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_RUSSIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_ABBASID" LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_MOONLIGHT_MAIDEN" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_SHADOWHEART_MOONLIGHT_MAIDEN_ABBASID_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
         <Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_PRUSSIA" LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_DARK_JUSTICIAR" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_PRUSSIA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+        <Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SPAIN" LeaderDomain="StandardLeaders" LeaderType="LEADER_SHADOWHEART_DARK_JUSTICIAR" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_SHADOWHEART_DARK_JUSTICIAR_SPAIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
     </LeaderCivilizationBias>
 
 	<Mementos>
